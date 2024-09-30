@@ -63,9 +63,9 @@ ros2 run gps_nav_tools gridmap_gps_creator
 
 To customize the parameters, you can use a ROS 2 launch file or pass them directly via the command line.
 
-\`\`\`bash
+```bash
 ros2 run gps_nav_tools gridmap_gps_creator --ros-args -p gps_topic:=/custom_gps_topic -p resolution_gridmap:=0.1
-\`\`\`
+```
 
 ## License
 
