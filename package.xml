@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>gps_nav_tools</name>
+  <version>0.0.0</version>
+  <description>This package provides a ROS 2 solution for processing GPS data from the 'fix_gps' topic and generating a color-coded gridmap. The distance of the points is represented through a color gradient, with nearby points displayed in green and distant points in red. This approach enables clear and efficient interpretation of the proximity of GPS coordinates on the generated map, supporting use in robotics and autonomous navigation applications.</description>
+  <maintainer email="albertogarciagomezjacinto@gmail.com">Alberto García</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>grid_map_ros</depend>
+  <depend>grid_map_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
