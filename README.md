@@ -35,7 +35,7 @@ The **GPS Navigation Tools** project provides a ROS 2 node for generating a dyna
 
 ## Requirements
 
-Ubuntu 24.04 and Ros Rolling distro are mandatory, Rolling can be installed, following this [steps](https://docs.ros.org/en/rolling/Installation.html)
+Ubuntu 24.04 and ROS 2 Rolling distro are mandatory, Rolling can be installed, following this [steps](https://docs.ros.org/en/rolling/Installation.html)
 
 ## Installation
 
