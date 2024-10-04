@@ -1,0 +1,10 @@
+gridmap_gps_creator_node:
+  ros__parameters:
+    gps_topic: "/gps/fix"
+    map_frame: "map"
+    resolution: 0.2
+    size_x: 100.0
+    size_y: 100.0
+    origin_latitude: 40.2834611
+    origin_longitude: -3.8207427
+    origin_altitude: 733.4590000000001
