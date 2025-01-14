@@ -22,7 +22,7 @@ int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
 
-  auto gridmap_gps_creator_node = gps_nav_tools::GridmapGpsCreator::make_shared();
+  auto gridmap_gps_creator_node = gps_nav_tools::GpsLocalization::make_shared();
   rclcpp::spin(gridmap_gps_creator_node);
 
   rclcpp::shutdown();

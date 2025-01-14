@@ -1,6 +1,8 @@
 gridmap_gps_creator_node:
   ros__parameters:
+    use_sim_time: true
     gps_topic: "/gps/fix"
+    map_topic: "/map"
     map_frame: "map"
     resolution: 0.2
     size_x: 100.0
@@ -8,3 +10,5 @@ gridmap_gps_creator_node:
     origin_latitude: 40.2834611
     origin_longitude: -3.8207427
     origin_altitude: 733.4590000000001
+    origin_x: 0
+    origin_y: 0
